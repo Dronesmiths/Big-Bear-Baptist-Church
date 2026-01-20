@@ -1,4 +1,4 @@
-/* VERSION: 2026-01-19-V2 */
+/* VERSION: 2026-01-20-V1 */
 :root {
     color-scheme: light;
     --brand-dark-blue: #074368;
@@ -137,6 +137,62 @@ body {
     backdrop-filter: blur(8px) !important;
     -webkit-backdrop-filter: blur(8px) !important;
 }
+
+/* Hero Section Layout */
+.items-end {
+    align-items: flex-end !important;
+}
+
+.min-h-\[95vh\] {
+    min-height: 95vh !important;
+}
+
+.min-h-\[90vh\] {
+    min-height: 90vh !important;
+}
+
+.pb-20 {
+    padding-bottom: 5rem !important;
+}
+
+.pb-24 {
+    padding-bottom: 6rem !important;
+}
+
+.pt-6 {
+    padding-top: 1.5rem !important;
+}
+
+.pt-8 {
+    padding-top: 2rem !important;
+}
+
+.space-y-6>*+* {
+    margin-top: 1.5rem !important;
+}
+
+.space-y-8>*+* {
+    margin-top: 2rem !important;
+}
+
+.gap-2 {
+    gap: 0.5rem !important;
+}
+
+@media (min-width: 768px) {
+    .md\:space-y-8>*+* {
+        margin-top: 2rem !important;
+    }
+
+    .md\:pb-24 {
+        padding-bottom: 6rem !important;
+    }
+
+    .md\:pt-8 {
+        padding-top: 2rem !important;
+    }
+}
+
 
 
 /* Primary Navigation */
