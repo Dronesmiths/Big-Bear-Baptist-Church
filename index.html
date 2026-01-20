@@ -30,7 +30,8 @@
   <meta property="og:title" content="Big Bear Baptist Church — Encounter Jesus in Worship &amp; Word" />
   <meta property="og:description"
     content="No performance required. Join a Bible-centered family of neighbors in Big Bear City. Sundays at 9:30 AM." />
-  <meta property="og:image" content="https://bigbearbaptist.org/assets/img/pastor-wife.png" />
+  <meta property="og:image" content="https://bigbearbaptist.org/assets/img/logo.png" />
+  <meta property="twitter:image" content="https://bigbearbaptist.org/assets/img/logo.png" />
 
   <!-- Structured Data (Schema.org) for E-E-A-T -->
   <script type="application/ld+json">
@@ -41,7 +42,7 @@
     "alternateName": "Big Bear Baptist Church",
     "description": "A Bible-centered Christian church in Big Bear City, CA. teaching from the KJV and serving our community through outreach and care.",
     "url": "https://bigbearbaptist.org",
-    "logo": "https://bigbearbaptist.org/assets/img/favicon.png",
+    "logo": "https://bigbearbaptist.org/assets/img/logo.png",
     "image": "https://bigbearbaptist.org/assets/img/pastor-wife.png",
     "address": {
       "@type": "PostalAddress",
@@ -99,7 +100,10 @@
   <!-- Header/Nav -->
   <header class="bg-white/90 backdrop-blur shadow fixed inset-x-0 top-0 z-50">
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-      <a href="/" class="text-2xl font-bold text-emerald-600 tracking-tight">Big Bear Baptist</a>
+      <a href="/" class="flex items-center gap-3 text-2xl font-bold text-emerald-600 tracking-tight">
+        <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo" class="h-10 w-auto">
+        <span class="hidden sm:inline">Big Bear Baptist Church</span>
+      </a>
       <button type="button"
         class="md:hidden inline-flex items-center justify-center rounded-md border border-slate-200 bg-white p-2 text-slate-600 transition hover:border-emerald-300 hover:text-emerald-600"
         aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
@@ -125,12 +129,10 @@
     <!-- SECTION 1 — Hero (Belonging First) -->
     <section class="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-slate-900 pt-20">
       <div class="absolute inset-0 z-0">
-        <img src="https://images.unsplash.com/photo-1544427928-c49cdfebf4ad?auto=format&fit=crop&w=1920&q=80" srcset="https://images.unsplash.com/photo-1544427928-c49cdfebf4ad?auto=format&fit=crop&w=640&q=80 640w,
-                  https://images.unsplash.com/photo-1544427928-c49cdfebf4ad?auto=format&fit=crop&w=1200&q=80 1200w,
-                  https://images.unsplash.com/photo-1544427928-c49cdfebf4ad?auto=format&fit=crop&w=1920&q=80 1920w"
-          sizes="100vw" width="1920" height="1080" fetchpriority="high" decoding="async"
-          alt="Warm glow in a worship space" class="w-full h-full object-cover opacity-40">
-        <div class="absolute inset-0 bg-gradient-to-b from-slate-900/60 via-slate-900/40 to-slate-900"></div>
+        <img src="assets/img/hero-big-bear.png" sizes="100vw" width="1920" height="1080" fetchpriority="high"
+          decoding="async" alt="Majestic Big Bear Lake landscape at twilight"
+          class="w-full h-full object-cover opacity-60">
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-transparent to-slate-900"></div>
       </div>
 
       <div class="relative z-10 container mx-auto px-4 text-center space-y-8 max-w-4xl">
@@ -407,40 +409,56 @@
     </section>
 
     <!-- SECTION 9 — One Clear Next Step -->
-    <section class="py-24 bg-emerald-600">
-      <div class="container mx-auto px-4 text-center space-y-8">
+    <section class="py-32 bg-emerald-600 relative overflow-hidden">
+      <div class="absolute inset-0 opacity-10 pointer-events-none">
+        <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path d="M0 100 C 20 0 50 0 100 100 Z" fill="white"></path>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4 text-center space-y-8 relative z-10">
         <h2 class="text-4xl md:text-5xl font-bold text-white">Come see for yourself.</h2>
         <div class="space-y-4">
           <a href="/visit"
-            class="inline-block px-12 py-6 bg-white text-emerald-700 text-xl font-bold rounded-full hover:bg-emerald-50 transition shadow-lg shadow-emerald-500/10">
+            class="inline-block px-12 py-6 bg-white text-emerald-700 text-xl font-bold rounded-full hover:bg-emerald-50 transition shadow-2xl shadow-black/20">
             Plan your visit
           </a>
-          <p class="text-emerald-100 text-lg">We’ll have the coffee ready and a seat saved for you this Sunday at 9:30
-            AM.</p>
+          <p class="text-emerald-50 text-lg opacity-90">We’ll have the coffee ready and a seat saved for you this Sunday
+            at 9:30 AM.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- SECTION 10 — Footer Content (Legitimacy) -->
-  <footer class="bg-slate-950 text-slate-400 py-20">
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 py-24">
     <div class="container mx-auto px-4">
-      <div class="grid gap-12 md:grid-cols-3 text-center md:text-left">
-        <div class="space-y-4">
-          <h3 class="text-white font-bold text-xl uppercase tracking-wider">Big Bear Baptist</h3>
-          <p class="leading-relaxed">
-            2080 Erwin Ranch Rd<br>
-            Big Bear City, CA 92314
-          </p>
-          <p>
-            <a href="mailto:pastorelwart@icloud.com" class="hover:text-white transition">pastorelwart@icloud.com</a><br>
-            (909) 588-8868
-          </p>
+      <div class="grid gap-16 md:grid-cols-3 text-center md:text-left">
+        <!-- Brand & Contact -->
+        <div class="space-y-6">
+          <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo"
+            class="h-16 w-auto mx-auto md:mx-0 brightness-0 invert opacity-90">
+          <div class="space-y-4">
+            <h3 class="text-white font-bold text-xl uppercase tracking-wider">Big Bear Baptist</h3>
+            <p class="leading-relaxed">
+              2080 Erwin Ranch Rd<br>
+              Big Bear City, CA 92314
+            </p>
+            <p>
+              <a href="mailto:pastorelwart@icloud.com"
+                class="hover:text-white transition">pastorelwart@icloud.com</a><br>
+              (909) 588-8868
+            </p>
+          </div>
         </div>
-        <div class="space-y-4">
+
+        <!-- Join Us & Social -->
+        <div class="space-y-6">
           <h3 class="text-white font-bold text-xl uppercase tracking-wider">Join Us</h3>
-          <p>Sundays at 9:30 AM</p>
-          <p>Sunday School at 10:45 AM</p>
+          <div class="space-y-2">
+            <p>Sundays at 9:30 AM</p>
+            <p>Sunday School at 10:45 AM</p>
+            <p>Thursdays at 7:00 PM</p>
+          </div>
           <nav class="flex justify-center md:justify-start gap-6 text-sm mt-4">
             <a href="https://facebook.com/bigbearbaptist" target="_blank" rel="noopener"
               class="hover:text-white transition uppercase font-bold tracking-widest text-emerald-500">Facebook</a>
@@ -448,7 +466,9 @@
               class="hover:text-white transition uppercase font-bold tracking-widest text-emerald-500">YouTube</a>
           </nav>
         </div>
-        <div class="space-y-4">
+
+        <!-- Quick Links -->
+        <div class="space-y-6">
           <h3 class="text-white font-bold text-xl uppercase tracking-wider">Quick Links</h3>
           <nav class="flex flex-col gap-3">
             <a href="/about" class="hover:text-white transition">Our Story</a>
@@ -459,7 +479,9 @@
           </nav>
         </div>
       </div>
-      <div class="mt-16 pt-8 border-t border-slate-900 text-sm text-center space-y-4">
+
+      <!-- Bottom Bar -->
+      <div class="mt-20 pt-10 border-t border-slate-900 text-sm text-center space-y-4">
         <p>Copyright &copy; <span data-current-year></span> Big Bear Baptist Church. All rights reserved.</p>
         <p class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-slate-500">
           <a href="/privacy" class="hover:text-emerald-500 transition">Privacy Policy</a>

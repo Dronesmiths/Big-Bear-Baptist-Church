@@ -5,27 +5,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-P75SLGFX');</script>
-  <!-- End Google Tag Manager -->
-        content="The terms and conditions for using the Big Bear Baptist Church website and services." />
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P75SLGFX');</script>
+    <!-- End Google Tag Manager -->
+    content="The terms and conditions for using the Big Bear Baptist Church website and services." />
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 
     <link rel="stylesheet" href="assets/css/tailwind-built.css">
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://images.unsplash.com">
 </head>
 
-<body class="bg-gray-50 text-gray-800 antialiased">  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P75SLGFX"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-      <!-- Header/Nav -->
+<body class="bg-gray-50 text-gray-800 antialiased"> <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P75SLGFX" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Header/Nav -->
     <header class="bg-white/90 backdrop-blur shadow fixed inset-x-0 top-0 z-50">
         <div class="container mx-auto px-4 py-4 flex items-center justify-between">
             <a href="/" class="text-2xl font-bold text-emerald-600 tracking-tight">Big Bear Baptist</a>
@@ -42,7 +45,7 @@
                 <a href="/">Home</a>
                 <a href="/visit">Visit</a>
                 <a href="/about">Our Story</a>
-        <a href="/leadership">Leadership</a>
+                <a href="/leadership">Leadership</a>
                 <a href="/sermons">Sermons</a>
                 <a href="/food-ministry">Community Care</a>
                 <a href="/giving">Give</a>
@@ -115,25 +118,36 @@
         </div>
     </main>
 
-    <footer class="bg-slate-950 text-slate-400 py-20">
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-slate-400 py-24">
         <div class="container mx-auto px-4">
-            <div class="grid gap-12 md:grid-cols-3 text-center md:text-left">
-                <div class="space-y-4">
-                    <h3 class="text-white font-bold text-xl uppercase tracking-wider">Big Bear Baptist</h3>
-                    <p class="leading-relaxed">
-                        2080 Erwin Ranch Rd<br>
-                        Big Bear City, CA 92314
-                    </p>
-                    <p>
-                        <a href="mailto:pastorelwart@icloud.com"
-                            class="hover:text-white transition">pastorelwart@icloud.com</a><br>
-                        (909) 588-8868
-                    </p>
+            <div class="grid gap-16 md:grid-cols-3 text-center md:text-left">
+                <!-- Brand & Contact -->
+                <div class="space-y-6">
+                    <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo"
+                        class="h-16 w-auto mx-auto md:mx-0 brightness-0 invert opacity-90">
+                    <div class="space-y-4">
+                        <h3 class="text-white font-bold text-xl uppercase tracking-wider">Big Bear Baptist</h3>
+                        <p class="leading-relaxed">
+                            2080 Erwin Ranch Rd<br>
+                            Big Bear City, CA 92314
+                        </p>
+                        <p>
+                            <a href="mailto:pastorelwart@icloud.com"
+                                class="hover:text-white transition">pastorelwart@icloud.com</a><br>
+                            (909) 588-8868
+                        </p>
+                    </div>
                 </div>
-                <div class="space-y-4">
+
+                <!-- Join Us & Social -->
+                <div class="space-y-6">
                     <h3 class="text-white font-bold text-xl uppercase tracking-wider">Join Us</h3>
-                    <p>Sundays at 9:30 AM</p>
-                    <p>Sunday School at 10:45 AM</p>
+                    <div class="space-y-2">
+                        <p>Sundays at 9:30 AM</p>
+                        <p>Sunday School at 10:45 AM</p>
+                        <p>Thursdays at 7:00 PM</p>
+                    </div>
                     <nav class="flex justify-center md:justify-start gap-6 text-sm mt-4">
                         <a href="https://facebook.com/bigbearbaptist" target="_blank" rel="noopener"
                             class="hover:text-white transition uppercase font-bold tracking-widest text-emerald-500">Facebook</a>
@@ -141,7 +155,9 @@
                             class="hover:text-white transition uppercase font-bold tracking-widest text-emerald-500">YouTube</a>
                     </nav>
                 </div>
-                <div class="space-y-4">
+
+                <!-- Quick Links -->
+                <div class="space-y-6">
                     <h3 class="text-white font-bold text-xl uppercase tracking-wider">Quick Links</h3>
                     <nav class="flex flex-col gap-3">
                         <a href="/about" class="hover:text-white transition">Our Story</a>
@@ -152,7 +168,9 @@
                     </nav>
                 </div>
             </div>
-            <div class="mt-16 pt-8 border-t border-slate-900 text-sm text-center space-y-4">
+
+            <!-- Bottom Bar -->
+            <div class="mt-20 pt-10 border-t border-slate-900 text-sm text-center space-y-4">
                 <p>Copyright &copy; <span data-current-year></span> Big Bear Baptist Church. All rights reserved.</p>
                 <p class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-slate-500">
                     <a href="/privacy" class="hover:text-emerald-500 transition">Privacy Policy</a>
@@ -160,14 +178,15 @@
                     <a href="/terms" class="hover:text-emerald-500 transition">Terms of Service</a>
                 </p>
                 <p>
-                    <a href="https://apps.irs.gov/pub/epostcard/dl/FinalLetter_37-2066430_LAKELOSANGELESBAPTISTCHURCH_06122023_00.pdf" target="_blank" rel="noopener"
-                        class="text-slate-500 hover:text-emerald-500 transition">
+                    <a href="https://apps.irs.gov/pub/epostcard/dl/FinalLetter_37-2066430_LAKELOSANGELESBAPTISTCHURCH_06122023_00.pdf"
+                        target="_blank" rel="noopener" class="text-slate-500 hover:text-emerald-500 transition">
                         Registered IRS 501(c)(3) Non-Profit Organization
                     </a>
                 </p>
             </div>
         </div>
     </footer>
+
 
     <script src="assets/js/main.js" defer></script>
 </body>
