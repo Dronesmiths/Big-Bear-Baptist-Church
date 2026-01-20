@@ -87,7 +87,7 @@
 
   <link rel="stylesheet" href="assets/css/tailwind-built.css">
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/main.css?v=1.2">
   <link rel="preconnect" href="https://images.unsplash.com">
 </head>
 
@@ -102,7 +102,6 @@
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
       <a href="/" class="flex items-center gap-3 text-2xl font-bold text-emerald-600 tracking-tight">
         <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo" class="h-10 w-auto">
-        <span class="hidden sm:inline">Big Bear Baptist Church</span>
       </a>
       <button type="button"
         class="md:hidden inline-flex items-center justify-center rounded-md border border-slate-200 bg-white p-2 text-slate-600 transition hover:border-emerald-300 hover:text-emerald-600"
@@ -131,25 +130,31 @@
       <div class="absolute inset-0 z-0">
         <img src="assets/img/hero-big-bear.png" sizes="100vw" width="1920" height="1080" fetchpriority="high"
           decoding="async" alt="Majestic Big Bear Lake landscape at twilight"
-          class="w-full h-full object-cover opacity-60">
-        <div class="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-transparent to-slate-900"></div>
+          class="w-full h-full object-cover opacity-50">
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-slate-900/50 to-slate-900/80"></div>
       </div>
 
-      <div class="relative z-10 container mx-auto px-4 text-center space-y-8 max-w-4xl">
-        <h1 class="text-5xl md:text-7xl font-bold text-white leading-tight">Encounter Jesus in Worship &amp; Word</h1>
-        <p class="text-xl md:text-2xl text-slate-200 font-light max-w-2xl mx-auto">
-          A family of imperfect people following a perfect Savior. Join us for Worship &amp; Word in the heart of Big
-          Bear City.
+      <div class="relative z-10 container mx-auto px-4 text-center space-y-10 max-w-5xl">
+        <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight drop-shadow-2xl">
+          Encounter Jesus in<br class="hidden md:block"> Worship &amp; Word
+        </h1>
+        <p class="text-xl md:text-2xl lg:text-3xl text-white font-light max-w-3xl mx-auto drop-shadow-lg">
+          A family of imperfect people following a perfect Savior.<br class="hidden sm:block">
+          Join us for Worship &amp; Word in the heart of Big Bear City.
         </p>
-        <div class="flex flex-col items-center gap-6">
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-6 pt-4">
           <a href="#visit"
-            class="px-10 py-5 bg-emerald-500 text-white text-lg font-bold rounded-full hover:bg-emerald-400 transition shadow-lg shadow-emerald-500/30">
+            class="px-12 py-6 bg-emerald-500 text-white text-xl font-bold rounded-full hover:bg-emerald-400 transition shadow-2xl shadow-emerald-500/40 hover:shadow-emerald-400/50 hover:scale-105 transform">
             Plan a Visit
           </a>
-          <p class="text-slate-400 text-sm italic">
-            Wear whatever makes you comfortable. It’s okay to just come and see.
-          </p>
+          <div class="flex flex-col gap-2 text-center sm:text-left">
+            <p class="text-white font-semibold text-lg">Sundays at 9:30 AM</p>
+            <p class="text-slate-300 text-sm">2080 Erwin Ranch Rd, Big Bear City</p>
+          </div>
         </div>
+        <p class="text-slate-300 text-base italic max-w-lg mx-auto pt-4">
+          Wear whatever makes you comfortable. It's okay to just come and see.
+        </p>
       </div>
     </section>
 
@@ -275,8 +280,9 @@
         <div class="grid lg:grid-cols-2 gap-16 items-center">
           <div class="relative">
             <div class="absolute -top-10 -left-10 w-64 h-64 bg-emerald-100 rounded-full blur-3xl opacity-50"></div>
-            <img src="assets/img/pastor-family.png" alt="Pastor Elwart's family" width="800" height="500" loading="lazy"
-              decoding="async" class="relative rounded-[3rem] shadow-2xl w-full h-auto object-cover">
+            <img src="assets/img/pastor-wife.png" alt="Pastor Elwart and his wife" width="600" height="400"
+              loading="lazy" decoding="async"
+              class="relative rounded-[3rem] shadow-2xl w-full max-w-md h-auto object-cover mx-auto lg:mx-0">
           </div>
           <div class="space-y-8">
             <h2 class="text-4xl font-bold text-slate-900 leading-tight">Ordinary people, no pedestals.</h2>

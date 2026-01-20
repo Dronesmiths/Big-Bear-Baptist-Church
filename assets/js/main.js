@@ -66,8 +66,11 @@ const initializeNavigation = () => {
         const href = link.getAttribute('href');
         if (!href) return;
 
-        const normalizedHref = href.replace('./', '');
-        const isMatch = normalizedHref === currentPath || (normalizedHref === 'index.html' && currentPath === '');
+        // Normalize href and current path for comparison
+        const normalizedHref = href.replace(/^\//, '').replace(/\.html$/, '') || 'index';
+        const normalizedPath = currentPath.replace(/\.html$/, '') || 'index';
+
+        const isMatch = normalizedHref === normalizedPath;
 
         if (isMatch) {
             link.classList.add('text-emerald-600');
