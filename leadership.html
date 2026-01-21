@@ -56,7 +56,7 @@
   <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 
   <link rel="stylesheet" href="assets/css/tailwind-built.css">
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="assets/css/main.css?v=1.1">
   <link rel="preconnect" href="https://images.unsplash.com">
 </head>
@@ -70,11 +70,11 @@
   <!-- Header/Nav -->
   <header class="bg-white/90 backdrop-blur shadow fixed inset-x-0 top-0 z-30">
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-      <a href="/" class="flex items-center gap-3 text-2xl font-bold text-emerald-600 tracking-tight"><img
+      <a href="/" class="flex items-center gap-3 text-2xl font-bold text-blue-600 tracking-tight"><img
           src="assets/img/logo.png" alt="Big Bear Baptist Church Logo" class="h-10 w-auto"><span
           class="hidden sm:inline">Big Bear Baptist Church</span></a>
       <button type="button"
-        class="md:hidden inline-flex items-center justify-center rounded-md border border-slate-200 bg-white p-2 text-slate-600 transition hover:border-emerald-300 hover:text-emerald-600"
+        class="md:hidden inline-flex items-center justify-center rounded-md border border-slate-200 bg-white p-2 text-slate-600 transition hover:border-blue-300 hover:text-blue-600"
         aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
         <span class="sr-only">Toggle navigation</span>
         <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
@@ -97,13 +97,29 @@
   <main class="relative z-10">
     <section class="relative overflow-hidden bg-slate-900 text-slate-100"
       style="padding-top: 12rem; padding-bottom: 5rem;">
+      <!-- Background Image -->
+      <div class="absolute inset-0 opacity-30">
+        <img src="assets/img/hero-big-bear.png" alt="Big Bear Mountains" class="w-full h-full object-cover">
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-slate-900/50 to-slate-900/80"></div>
       <div class="relative container mx-auto px-4 text-center space-y-6">
-        <p class="text-sm font-semibold uppercase tracking-[0.35em] text-emerald-200">Leadership</p>
+        <p class="text-sm font-semibold uppercase tracking-[0.35em] text-blue-200">Leadership</p>
         <h1 class="text-4xl md:text-5xl font-bold">Guided by Christ-like, Spirit-led Servants</h1>
         <p class="max-w-3xl mx-auto text-lg text-slate-200">A letter from our pastor and a clear statement of how we
           view leadership in the church.</p>
       </div>
     </section>
+
+    <!-- Decorative Divider -->
+    <div class="py-8 bg-gray-50">
+      <div class="container mx-auto px-4 max-w-4xl">
+        <div class="flex items-center gap-4">
+          <div class="flex-1 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"></div>
+          <div class="w-2 h-2 rounded-full bg-blue-400"></div>
+          <div class="flex-1 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"></div>
+        </div>
+      </div>
+    </div>
 
     <!-- Pastor Letter -->
     <section id="pastor-letter" class="py-16 bg-white">
@@ -111,13 +127,13 @@
         <div class="w-full max-w-md space-y-4">
           <figure>
             <img src="assets/img/pastor-wife.png" alt="Pastor Elwart and his wife" width="600" height="600"
-              class="w-full rounded-3xl shadow-2xl shadow-emerald-900/40 object-cover" loading="lazy" decoding="async">
+              class="w-full rounded-3xl shadow-2xl shadow-blue-900/40 object-cover" loading="lazy" decoding="async">
             <figcaption class="mt-2 text-sm text-slate-500 text-center font-medium">Pastor Elwart & his wife.
             </figcaption>
           </figure>
           <figure>
             <img src="assets/img/pastor-family.png" alt="Pastor Elwart's children" width="600" height="600"
-              class="w-full rounded-3xl shadow-2xl shadow-emerald-900/10 object-cover" loading="lazy" decoding="async">
+              class="w-full rounded-3xl shadow-2xl shadow-blue-900/10 object-cover" loading="lazy" decoding="async">
             <figcaption class="mt-2 text-sm text-slate-500 text-center font-medium">The Elwart children.</figcaption>
           </figure>
         </div>
@@ -148,7 +164,7 @@
             freely available to our church family, and I am committed to walking with you through whatever life brings.
             You can reach me directly at
             <a href="mailto:pastorelwart@icloud.com"
-              class="font-semibold text-emerald-700 hover:text-emerald-600">pastorelwart@icloud.com</a>.
+              class="font-semibold text-blue-700 hover:text-blue-600">pastorelwart@icloud.com</a>.
             Please don’t ever hesitate to write — I would love to talk with you, pray with you, or simply be there when
             you need someone.
           </p>
@@ -166,27 +182,41 @@
           </div>
 
           <blockquote
-            class="border-l-4 border-emerald-400 pl-4 text-base italic text-emerald-700 bg-emerald-50/60 py-4 pr-4 rounded-r-xl">
+            class="border-l-4 border-blue-400 pl-4 text-base italic text-blue-700 bg-blue-50/60 py-4 pr-4 rounded-r-xl">
             “For whether we live, we live unto the Lord; and whether we die, we die unto the Lord:
             whether we live therefore, or die, we are the Lord’s.” — <span class="font-semibold">Romans 14:8</span>
           </blockquote>
 
           <div class="pt-2 flex flex-wrap gap-3">
             <a href="mailto:pastorelwart@icloud.com"
-              class="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-white font-semibold shadow-lg shadow-emerald-600/20 hover:bg-emerald-700 transition">Email
+              class="inline-flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 text-white font-semibold shadow-lg shadow-blue-600/20 hover:bg-blue-700 transition">Email
               Pastor Elwart</a>
             <a href="/visit"
-              class="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-emerald-700 font-semibold shadow-sm border border-emerald-200 hover:bg-emerald-50 transition">Plan
+              class="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-blue-700 font-semibold shadow-sm border border-blue-200 hover:bg-blue-50 transition">Plan
               Your Visit</a>
           </div>
         </article>
       </div>
     </section>
 
+    <!-- Decorative Divider -->
+    <div class="py-8 bg-white">
+      <div class="container mx-auto px-4 max-w-4xl">
+        <div class="flex items-center gap-4">
+          <div class="flex-1 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"></div>
+          <div class="w-2 h-2 rounded-full bg-blue-400"></div>
+          <div class="flex-1 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"></div>
+        </div>
+      </div>
+    </div>
+
     <!-- Leadership Statement -->
     <section id="leadership-statement" class="pb-20 pt-4 bg-gray-50">
       <div class="container mx-auto px-4 max-w-4xl">
-        <header class="mb-8">
+        <header class="mb-8 text-center">
+          <div class="mb-6">
+            <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo" class="h-48 w-auto mx-auto">
+          </div>
           <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Our View of Leadership</h2>
           <p class="mt-3 text-slate-600 text-lg">Leadership is Spirit-formed, Christ-like, and Scripture-defined — not
             worldly, corporate, political, or performance-driven.</p>
@@ -217,16 +247,28 @@
                 10:45</strong></li>
           </ul>
 
-          <h3 id="two-kinds" class="text-2xl font-semibold mt-10">Two Kinds of Leadership</h3>
-          <p>Scripture reveals there are two kinds of leaders:</p>
+          <h3 id="two-kinds" class="text-2xl font-semibold mt-10 mb-6">Two Kinds of Leadership</h3>
+          <p class="mb-6">Scripture reveals there are two kinds of leaders:</p>
 
-          <h4 class="text-xl font-semibold mt-6">1) Leaders shaped by the world</h4>
-          <p>Driven by pride, performance, image, ambition, numbers, and praise of men. (<strong>1 John 2:16; James
-              3:14–16; 3 John 9–10</strong>)</p>
+          <div class="grid md:grid-cols-2 gap-6 mb-8">
+            <!-- Card 1: Leaders shaped by the world -->
+            <div class="rounded-xl border-2 border-red-200 bg-red-50 p-6 shadow-lg">
+              <h4 class="text-xl font-bold text-red-900 mb-3">1) Leaders shaped by the world</h4>
+              <p class="text-slate-700 mb-3">Driven by pride, performance, image, ambition, numbers, and praise of men.
+              </p>
+              <p class="text-sm text-red-700 font-semibold">1 John 2:16; James
+                3:14–16; 3 John 9–10</p>
+            </div>
 
-          <h4 class="text-xl font-semibold mt-6">2) Leaders shaped by Christ</h4>
-          <p>Driven by humility, holiness, Spirit-guidance, obedience, Scripture, and love. (<strong>James 3:17; Matthew
-              20:26–28; Galatians 5:22–23</strong>)</p>
+            <!-- Card 2: Leaders shaped by Christ -->
+            <div class="rounded-xl border-2 border-blue-200 bg-blue-50 p-6 shadow-lg">
+              <h4 class="text-xl font-bold text-blue-900 mb-3">2) Leaders shaped by Christ</h4>
+              <p class="text-slate-700 mb-3">Driven by humility, holiness, Spirit-guidance, obedience, Scripture, and
+                love.</p>
+              <p class="text-sm text-blue-700 font-semibold">James 3:17; Matthew
+                20:26–28; Galatians 5:22–23</p>
+            </div>
+          </div>
 
           <p>We reject leadership motivated by worldly success and external measures — whether secular or
             “ministry-brand” performance culture. We do not promote those ruled by the spirit of performance,
@@ -236,18 +278,42 @@
             <p><em>“Be ye followers of me, even as I also am of Christ.”</em> — <strong>1 Corinthians 11:1</strong></p>
           </blockquote>
 
-          <h3 id="defines" class="text-2xl font-semibold mt-10">What Defines a Leader Here?</h3>
-          <ul class="list-disc pl-6">
-            <li>Walks in the Spirit and displays the fruit of the Spirit (<strong>Galatians 5:22–23</strong>)</li>
-            <li>Is faithful in obedience before being visible in ministry</li>
-            <li>Reflects the heart and demeanor of Jesus</li>
-            <li>Demonstrates servanthood before authority (<strong>1 Peter 5:2–3</strong>)</li>
-            <li>Meets the biblical qualifications of elders and deacons (<strong>1 Timothy 3; Titus 1</strong>)</li>
-          </ul>
+          <h3 id="defines" class="text-2xl font-semibold mt-10 mb-6">What Defines a Leader Here?</h3>
 
-          <p class="mt-4"><strong>In simple terms:</strong> A leader here is someone who goes first in obedience,
-            humility, holiness, and love — and invites others to follow Christ with them (cf. <strong>1 John
-              2:6</strong>).</p>
+          <div class="rounded-xl border-2 border-blue-200 bg-blue-50 p-8 shadow-lg">
+            <ul class="space-y-4">
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600 text-xl mt-1">✓</span>
+                <span class="text-slate-700">Walks in the Spirit and displays the fruit of the Spirit <strong>(Galatians
+                    5:22–23)</strong></span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600 text-xl mt-1">✓</span>
+                <span class="text-slate-700">Is faithful in obedience before being visible in ministry</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600 text-xl mt-1">✓</span>
+                <span class="text-slate-700">Reflects the heart and demeanor of Jesus</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600 text-xl mt-1">✓</span>
+                <span class="text-slate-700">Demonstrates servanthood before authority <strong>(1 Peter
+                    5:2–3)</strong></span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-blue-600 text-xl mt-1">✓</span>
+                <span class="text-slate-700">Meets the biblical qualifications of elders and deacons <strong>(1 Timothy
+                    3; Titus 1)</strong></span>
+              </li>
+            </ul>
+
+            <div class="mt-6 pt-6 border-t-2 border-blue-200">
+              <p class="font-semibold text-blue-900 mb-2">In simple terms:</p>
+              <p class="text-slate-700">A leader here is someone who goes first in obedience,
+                humility, holiness, and love — and invites others to follow Christ with them (cf. <strong>1 John
+                  2:6</strong>).</p>
+            </div>
+          </div>
 
           <h3 id="commitment" class="text-2xl font-semibold mt-10">Our Commitment</h3>
           <ul class="list-disc pl-6">
@@ -266,7 +332,7 @@
             </p>
           </blockquote>
 
-          <div class="mt-8 rounded-xl border border-emerald-200 bg-emerald-50/60 p-5">
+          <div class="mt-8 rounded-xl border-2 border-blue-200 bg-blue-50 p-5 shadow-lg">
             <p class="font-semibold">One-sentence summary:</p>
             <p>We follow and raise leaders who walk like Jesus — humble, obedient, Spirit-led servants whose lives
               reflect Scripture and the fruit of the Spirit, not the wisdom and ambitions of the world.</p>
@@ -276,10 +342,10 @@
         <!-- Optional CTAs beneath statement -->
         <div class="pt-8 flex flex-wrap gap-3">
           <a href="/serve"
-            class="inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 text-white font-semibold shadow-lg shadow-emerald-600/20 hover:bg-emerald-700 transition">Join
+            class="inline-flex items-center justify-center rounded-full bg-blue-600 px-6 py-3 text-white font-semibold shadow-lg shadow-blue-600/20 hover:bg-blue-700 transition">Join
             a Serve Team</a>
           <a href="mailto:pastorelwart@icloud.com"
-            class="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-emerald-700 font-semibold shadow-sm border border-emerald-200 hover:bg-emerald-50 transition">Email
+            class="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-blue-700 font-semibold shadow-sm border border-blue-200 hover:bg-blue-50 transition">Email
             Church Leadership</a>
         </div>
       </div>
@@ -287,20 +353,20 @@
   </main>
 
   <!-- SECTION 9 — One Clear Next Step -->
-  <section class="py-32 bg-emerald-600 relative overflow-hidden">
+  <section class="py-32 bg-blue-600 relative overflow-hidden">
     <div class="absolute inset-0 opacity-10 pointer-events-none">
       <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
         <path d="M0 100 C 20 0 50 0 100 100 Z" fill="white"></path>
       </svg>
     </div>
     <div class="container mx-auto px-4 text-center space-y-8 relative z-10">
-      <h2 class="text-4xl md:text-5xl font-bold text-white">Come see for yourself.</h2>
+      <h2 class="text-4xl md:text-5xl font-bold text-white" style="color: white !important;">Come see for yourself.</h2>
       <div class="space-y-4">
         <a href="/visit"
-          class="inline-block px-12 py-6 bg-white text-emerald-700 text-xl font-bold rounded-full hover:bg-emerald-50 transition shadow-2xl shadow-black/20">
+          class="inline-block px-12 py-6 bg-white text-blue-700 text-xl font-bold rounded-full hover:bg-blue-50 transition shadow-2xl shadow-black/20">
           Plan your visit
         </a>
-        <p class="text-emerald-50 text-lg opacity-90">We’ll have the coffee ready and a seat saved for you this Sunday
+        <p class="text-blue-50 text-lg opacity-90">We’ll have the coffee ready and a seat saved for you this Sunday
           at 9:30 AM.</p>
       </div>
     </div>
@@ -310,44 +376,62 @@
   <!-- FOOTER -->
   <footer class="bg-slate-950 text-slate-400 py-24">
     <div class="container mx-auto px-4">
+      <!-- Logo at top, centered -->
+      <div class="text-center mb-12">
+        <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo" class="h-24 w-auto mx-auto mb-4">
+        <h3 class="text-white font-bold text-2xl uppercase tracking-wider" style="color: white !important;">Big Bear
+          Baptist Church</h3>
+      </div>
+
+      <!-- Three columns -->
       <div class="grid gap-16 md:grid-cols-3 text-center md:text-left">
-        <!-- Brand & Contact -->
-        <div class="space-y-6">
-          <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo"
-            class="h-16 w-auto mx-auto md:mx-0 brightness-0 invert opacity-90">
-          <div class="space-y-4">
-            <h3 class="text-white font-bold text-xl uppercase tracking-wider">Big Bear Baptist</h3>
-            <p class="leading-relaxed">
-              2080 Erwin Ranch Rd<br>
-              Big Bear City, CA 92314
-            </p>
-            <p>
-              <a href="mailto:pastorelwart@icloud.com"
-                class="hover:text-white transition">pastorelwart@icloud.com</a><br>
-              (909) 588-8868
-            </p>
-          </div>
+        <!-- Contact Info -->
+        <div class="space-y-4">
+          <h4 class="text-white font-bold text-lg uppercase tracking-wider" style="color: white !important;">Contact
+          </h4>
+          <p class="leading-relaxed">
+            2080 Erwin Ranch Rd<br>
+            Big Bear City, CA 92314
+          </p>
+          <p>
+            <a href="mailto:pastorelwart@icloud.com" class="hover:text-white transition">pastorelwart@icloud.com</a><br>
+            (909) 588-8868
+          </p>
         </div>
 
         <!-- Join Us & Social -->
         <div class="space-y-6">
-          <h3 class="text-white font-bold text-xl uppercase tracking-wider">Join Us</h3>
+          <h4 class="text-white font-bold text-lg uppercase tracking-wider" style="color: white !important;">Join Us
+          </h4>
           <div class="space-y-2">
             <p>Sundays at 9:30 AM</p>
             <p>Sunday School at 10:45 AM</p>
             <p>Thursdays at 7:00 PM</p>
           </div>
-          <nav class="flex justify-center md:justify-start gap-6 text-sm mt-4">
+          <div class="flex justify-center md:justify-start gap-4 mt-4">
             <a href="https://facebook.com/bigbearbaptist" target="_blank" rel="noopener"
-              class="hover:text-white transition uppercase font-bold tracking-widest text-emerald-500">Facebook</a>
+              class="text-blue-500 hover:text-blue-400 transition" aria-label="Facebook">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
             <a href="https://youtube.com/@bigbearbaptist" target="_blank" rel="noopener"
-              class="hover:text-white transition uppercase font-bold tracking-widest text-emerald-500">YouTube</a>
-          </nav>
+              class="text-blue-500 hover:text-blue-400 transition" aria-label="YouTube">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
         </div>
 
         <!-- Quick Links -->
         <div class="space-y-6">
-          <h3 class="text-white font-bold text-xl uppercase tracking-wider">Quick Links</h3>
+          <h4 class="text-white font-bold text-lg uppercase tracking-wider" style="color: white !important;">Quick Links
+          </h4>
           <nav class="flex flex-col gap-3">
             <a href="/about" class="hover:text-white transition">Our Story</a>
             <a href="/sermons" class="hover:text-white transition">Recent Sermons</a>
@@ -362,13 +446,13 @@
       <div class="mt-20 pt-10 border-t border-slate-900 text-sm text-center space-y-4">
         <p>Copyright &copy; <span data-current-year></span> Big Bear Baptist Church. All rights reserved.</p>
         <p class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-slate-500">
-          <a href="/privacy" class="hover:text-emerald-500 transition">Privacy Policy</a>
+          <a href="/privacy" class="hover:text-blue-500 transition">Privacy Policy</a>
           <span class="text-slate-800 hidden sm:inline">|</span>
-          <a href="/terms" class="hover:text-emerald-500 transition">Terms of Service</a>
+          <a href="/terms" class="hover:text-blue-500 transition">Terms of Service</a>
         </p>
         <p>
           <a href="https://apps.irs.gov/pub/epostcard/dl/FinalLetter_37-2066430_LAKELOSANGELESBAPTISTCHURCH_06122023_00.pdf"
-            target="_blank" rel="noopener" class="text-slate-500 hover:text-emerald-500 transition">
+            target="_blank" rel="noopener" class="text-slate-500 hover:text-blue-500 transition">
             Registered IRS 501(c)(3) Non-Profit Organization
           </a>
         </p>

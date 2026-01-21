@@ -38,7 +38,7 @@
   <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 
   <link rel="stylesheet" href="assets/css/tailwind-built.css">
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="assets/css/main.css?v=1.1">
 
   <script type="application/ld+json">
@@ -141,124 +141,143 @@
     </section>
 
     <!-- Where & When -->
-    <section class="py-14 bg-white">
-      <div class="container mx-auto px-4 grid gap-10 lg:grid-cols-2">
-        <div class="space-y-6">
-          <p class="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-500">Where &amp; When We Worship</p>
-          <h2 class="text-2xl font-bold text-slate-900">Gathering Times</h2>
-          <ul class="space-y-2 text-lg text-slate-700">
-            <li><span class="font-semibold">Sunday Service:</span> 9:30 AM</li>
-            <li><span class="font-semibold">Sunday School:</span> 10:45 AM</li>
-            <li><span class="font-semibold">Thursday Bible Study:</span> 7:00 PM</li>
-          </ul>
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 max-w-6xl">
+        <div class="grid gap-10 lg:grid-cols-2">
+          <!-- Service Times Card -->
+          <div class="bg-white p-8 rounded-2xl border-2 border-blue-200 shadow-lg space-y-6">
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-blue-600">Where &amp; When We Worship</p>
+            <h2 class="text-2xl font-bold text-slate-900">Gathering Times</h2>
+            <ul class="space-y-3 text-lg text-slate-700">
+              <li class="flex justify-between items-center pb-2 border-b border-slate-100"><span
+                  class="font-semibold">Sunday Service:</span> <span class="font-bold text-blue-900">9:30 AM</span></li>
+              <li class="flex justify-between items-center pb-2 border-b border-slate-100"><span
+                  class="font-semibold">Sunday School:</span> <span class="font-bold text-blue-900">10:45 AM</span></li>
+              <li class="flex justify-between items-center"><span class="font-semibold">Thursday Bible Study:</span>
+                <span class="font-bold text-blue-900">7:00 PM</span>
+              </li>
+            </ul>
 
-          <div class="pt-4 space-y-2">
-            <h3 class="text-xl font-semibold text-slate-900">Address</h3>
-            <p class="text-slate-700 text-lg">
-              2080 Erwin Ranch Rd<br />Big Bear City, CA 92314<br />
-              <span class="text-sm text-slate-500">(Big Bear Sports Ranch Clubhouse)</span>
-            </p>
-            <div class="flex flex-wrap gap-3 pt-2">
-              <a href="https://www.google.com/maps/place/2080+Erwin+Ranch+Rd,+Big+Bear+City,+CA+92314/" target="_blank"
-                rel="noopener"
-                class="inline-flex items-center justify-center rounded-full bg-emerald-500 px-6 py-3 text-white font-semibold shadow hover:bg-emerald-400">
-                Maps &amp; Directions
-              </a>
-              <a href="https://maps.apple.com/?q=2080%20Erwin%20Ranch%20Rd,%20Big%20Bear%20City,%20CA%2092314"
-                target="_blank" rel="noopener"
-                class="inline-flex items-center justify-center rounded-full border border-emerald-300 text-emerald-700 hover:bg-emerald-50 px-6 py-3 font-semibold">
-                Open in Apple Maps
-              </a>
+            <div class="pt-4 space-y-3 border-t border-slate-200">
+              <h3 class="text-xl font-semibold text-slate-900">Address</h3>
+              <p class="text-slate-700 text-base">
+                2080 Erwin Ranch Rd<br />Big Bear City, CA 92314<br />
+                <span class="text-sm text-slate-500">(Big Bear Sports Ranch Clubhouse)</span>
+              </p>
+              <div class="flex flex-wrap gap-3 pt-2">
+                <a href="https://www.google.com/maps/place/2080+Erwin+Ranch+Rd,+Big+Bear+City,+CA+92314/"
+                  target="_blank" rel="noopener"
+                  class="inline-flex items-center justify-center rounded-lg bg-blue-600 px-6 py-3 text-white font-semibold shadow-md hover:bg-blue-700 transition">
+                  Get Directions →
+                </a>
+              </div>
             </div>
+
+            <p class="text-slate-600 text-sm pt-4 border-t border-slate-200">
+              Questions? Email <a href="mailto:pastorelwart@icloud.com"
+                class="text-blue-600 underline font-semibold">pastorelwart@icloud.com</a>
+            </p>
           </div>
 
-          <p class="text-slate-600">
-            Questions? Email <a href="mailto:pastorelwart@icloud.com"
-              class="text-emerald-600 underline">pastorelwart@icloud.com</a>.
-          </p>
-        </div>
-
-        <!-- Map Embed -->
-        <div class="rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5">
-          <div class="aspect-video">
-            <iframe class="w-full h-full" style="border:0" loading="lazy"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=-116.8313%2C34.2547%2C-116.8113%2C34.2747&amp;layer=mapnik&amp;marker=34.2647%2C-116.8213">
-            </iframe>
+          <!-- Map Card -->
+          <div class="bg-white p-4 rounded-2xl border-2 border-blue-200 shadow-lg">
+            <div class="aspect-video rounded-xl overflow-hidden">
+              <iframe class="w-full h-full" style="border:0" loading="lazy"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-116.8313%2C34.2547%2C-116.8113%2C34.2747&amp;layer=mapnik&amp;marker=34.2647%2C-116.8213">
+              </iframe>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Decorative Divider -->
+    <div class="py-8 bg-white">
+      <div class="container mx-auto px-4 max-w-4xl">
+        <div class="flex items-center gap-4">
+          <div class="flex-1 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"></div>
+          <div class="w-2 h-2 rounded-full bg-blue-400"></div>
+          <div class="flex-1 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"></div>
+        </div>
+      </div>
+    </div>
+
     <!-- Kids & What to Expect -->
-    <section class="py-20 bg-white">
+    <section class="py-20 bg-blue-50">
       <div class="container mx-auto px-4 max-w-5xl">
-        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-12">Answers to some questions you may
-          have</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 text-center mb-12">Frequently Asked Questions</h2>
 
         <div class="grid gap-8 lg:grid-cols-2">
           <!-- Question 1 -->
-          <div class="space-y-4 p-8 rounded-3xl bg-slate-50 border border-slate-100">
-            <h3 class="text-xl font-bold text-slate-900 flex items-center gap-3">
+          <div class="space-y-4 p-8 rounded-2xl bg-white border-2 border-blue-200 shadow-lg">
+            <h3 class="text-xl font-bold text-blue-900 flex items-center gap-3">
               <span
-                class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-500 text-white flex items-center justify-center text-sm">?</span>
+                class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm">?</span>
               What should I expect on my first visit?
             </h3>
             <div class="text-slate-700 space-y-4 leading-relaxed">
-              <p>After our 9:30 AM worship service, we have <strong>Sunday School at 10:45 AM</strong> with free
-                refreshments and fellowship. We would love for you to join us!</p>
+              <p>After our 9:30 AM worship service, we have <strong>Sunday School at 10:45 AM</strong> with refreshments
+                and fellowship. We would love for you to join us!</p>
             </div>
           </div>
 
           <!-- Question 2 -->
-          <div class="space-y-4 p-8 rounded-3xl bg-slate-50 border border-slate-100">
-            <h3 class="text-xl font-bold text-slate-900 flex items-center gap-3">
+          <div class="space-y-4 p-8 rounded-2xl bg-white border-2 border-blue-200 shadow-lg">
+            <h3 class="text-xl font-bold text-blue-900 flex items-center gap-3">
               <span
-                class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-500 text-white flex items-center justify-center text-sm">?</span>
+                class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm">?</span>
               What about my children?
             </h3>
             <div class="text-slate-700 space-y-4 leading-relaxed">
-              <p>Loving nursery care is available on Sundays for infants and toddlers through <strong>age 2</strong>.
-                The nursery is also available for moms to use during any service as needed, or you are welcome to keep
-                them in the service with you.</p>
-              <p>Your children will also have the opportunity to be a part of our youth program with age-appropriate
-                classes that help them grow spiritually and make godly friendships.</p>
+              <p>Nursery care is available on Sundays for infants and toddlers through <strong>age 2</strong>.
+                Families are also welcome to keep children in the service.</p>
+              <p>Age-appropriate classes are available to help children grow spiritually and build friendships.</p>
             </div>
           </div>
 
           <!-- Question 3 -->
-          <div class="space-y-4 p-8 rounded-3xl bg-slate-50 border border-slate-100">
-            <h3 class="text-xl font-bold text-slate-900 flex items-center gap-3">
+          <div class="space-y-4 p-8 rounded-2xl bg-white border-2 border-blue-200 shadow-lg">
+            <h3 class="text-xl font-bold text-blue-900 flex items-center gap-3">
               <span
-                class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-500 text-white flex items-center justify-center text-sm">?</span>
+                class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm">?</span>
               Is there a dress code?
             </h3>
             <div class="text-slate-700 leading-relaxed">
-              <p>There is not a dress code at Big Bear Baptist Church. You will find that many of our members wear
-                traditional “Sunday” dress, while others come more casually. Our greatest desire is for you to feel
-                welcome and encouraged on your first visit.</p>
+              <p>We welcome you to come as you are in comfortable, casual attire. Our greatest desire is for you to feel
+                welcome and encouraged.</p>
             </div>
           </div>
 
           <!-- Question 4 -->
-          <div class="space-y-4 p-8 rounded-3xl bg-slate-50 border border-slate-100">
-            <h3 class="text-xl font-bold text-slate-900 flex items-center gap-3">
+          <div class="space-y-4 p-8 rounded-2xl bg-white border-2 border-blue-200 shadow-lg">
+            <h3 class="text-xl font-bold text-blue-900 flex items-center gap-3">
               <span
-                class="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-500 text-white flex items-center justify-center text-sm">?</span>
+                class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center text-sm">?</span>
               Am I expected to participate in the offering?
             </h3>
             <div class="text-slate-700 leading-relaxed">
-              <p>No. We want our services to be a gift to you. Please don’t feel any pressure or obligation to
-                participate in the offering as a guest. We hope you find our church home to be a warm place that
-                glorifies God through His Word.</p>
+              <p>No. If you're visiting, please know there is no expectation for you to give. We're grateful for your
+                presence with us.</p>
             </div>
           </div>
         </div>
 
         <div class="mt-16 text-center">
-          <p class="text-2xl font-bold text-emerald-600">WE LOOK FORWARD TO YOUR VISIT!</p>
+          <p class="text-2xl font-bold text-blue-900">We Look Forward to Your Visit!</p>
         </div>
       </div>
     </section>
+
+    <!-- Decorative Divider -->
+    <div class="py-8 bg-gradient-to-b from-blue-50 to-white">
+      <div class="container mx-auto px-4 max-w-4xl">
+        <div class="flex items-center gap-4">
+          <div class="flex-1 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"></div>
+          <div class="w-2 h-2 rounded-full bg-blue-400"></div>
+          <div class="flex-1 h-px bg-gradient-to-r from-transparent via-blue-300 to-transparent"></div>
+        </div>
+      </div>
+    </div>
 
     <!-- Food Ministry highlight -->
     <section class="py-14 bg-white">
@@ -286,13 +305,14 @@
         </svg>
       </div>
       <div class="container mx-auto px-4 text-center space-y-8 relative z-10">
-        <h2 class="text-4xl md:text-5xl font-bold text-white">Come see for yourself.</h2>
+        <h2 class="text-4xl md:text-5xl font-bold text-white" style="color: white !important;">Come see for yourself.
+        </h2>
         <div class="space-y-4">
           <a href="/contact"
             class="inline-block px-12 py-6 bg-white text-emerald-700 text-xl font-bold rounded-full hover:bg-emerald-50 transition shadow-2xl shadow-black/20">
             Contact us
           </a>
-          <p class="text-emerald-50 text-lg opacity-90">We’ll have the coffee ready and a seat saved for you this Sunday
+          <p class="text-white text-lg opacity-90">We’ll have the coffee ready and a seat saved for you this Sunday
             at 9:30 AM.</p>
         </div>
       </div>
@@ -305,10 +325,10 @@
       <div class="grid gap-16 md:grid-cols-3 text-center md:text-left">
         <!-- Brand & Contact -->
         <div class="space-y-6">
-          <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo"
-            class="h-16 w-auto mx-auto md:mx-0 brightness-0 invert opacity-90">
+          <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo" class="h-24 md:h-16 w-auto">
           <div class="space-y-4">
-            <h3 class="text-white font-bold text-xl uppercase tracking-wider">Big Bear Baptist</h3>
+            <h3 class="text-white font-bold text-xl uppercase tracking-wider" style="color: white !important;">Big Bear
+              Baptist</h3>
             <p class="leading-relaxed">
               2080 Erwin Ranch Rd<br>
               Big Bear City, CA 92314
@@ -323,7 +343,8 @@
 
         <!-- Join Us & Social -->
         <div class="space-y-6">
-          <h3 class="text-white font-bold text-xl uppercase tracking-wider">Join Us</h3>
+          <h3 class="text-white font-bold text-xl uppercase tracking-wider" style="color: white !important;">Join Us
+          </h3>
           <div class="space-y-2">
             <p>Sundays at 9:30 AM</p>
             <p>Sunday School at 10:45 AM</p>
@@ -331,15 +352,16 @@
           </div>
           <nav class="flex justify-center md:justify-start gap-6 text-sm mt-4">
             <a href="https://facebook.com/bigbearbaptist" target="_blank" rel="noopener"
-              class="hover:text-white transition uppercase font-bold tracking-widest text-emerald-500">Facebook</a>
+              class="hover:text-white transition uppercase font-bold tracking-widest text-blue-500">Facebook</a>
             <a href="https://youtube.com/@bigbearbaptist" target="_blank" rel="noopener"
-              class="hover:text-white transition uppercase font-bold tracking-widest text-emerald-500">YouTube</a>
+              class="hover:text-white transition uppercase font-bold tracking-widest text-blue-500">YouTube</a>
           </nav>
         </div>
 
         <!-- Quick Links -->
         <div class="space-y-6">
-          <h3 class="text-white font-bold text-xl uppercase tracking-wider">Quick Links</h3>
+          <h3 class="text-white font-bold text-xl uppercase tracking-wider" style="color: white !important;">Quick Links
+          </h3>
           <nav class="flex flex-col gap-3">
             <a href="/about" class="hover:text-white transition">Our Story</a>
             <a href="/sermons" class="hover:text-white transition">Recent Sermons</a>

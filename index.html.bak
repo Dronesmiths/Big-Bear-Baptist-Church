@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P75SLGFX');</script>
+  <!-- End Google Tag Manager -->
+
+  <title>Big Bear Baptist Church — Worship &amp; Word in Big Bear City, CA 92314</title>
+  <meta name="description"
+    content="A Bible-centered, KJV-teaching church community in Big Bear City. No performance required—just a family of neighbors longing for God’s presence. Join us Sundays at 9:30 AM." />
+  <meta name="keywords"
+    content="Big Bear City Church, Baptist Church Big Bear, KJV Bible Church 92314, Community Outreach, Pastor Elwart, Big Bear Lake Church" />
+  <meta name="author" content="Big Bear Baptist Church" />
+  <link rel="canonical" href="https://bigbearbaptist.org/" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bigbearbaptist.org/" />
+  <meta property="og:title" content="Big Bear Baptist Church — Encounter Jesus in Worship &amp; Word" />
+  <meta property="og:description"
+    content="No performance required. Join a Bible-centered family of neighbors in Big Bear City. Sundays at 9:30 AM." />
+  <meta property="og:image" content="https://bigbearbaptist.org/assets/img/logo.png" />
+  <meta property="twitter:image" content="https://bigbearbaptist.org/assets/img/logo.png" />
+
+  <!-- Structured Data (Schema.org) for E-E-A-T -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Church",
+    "name": "Big Bear Baptist Church",
+    "alternateName": "Big Bear Baptist Church",
+    "description": "A Bible-centered Christian church in Big Bear City, CA. teaching from the KJV and serving our community through outreach and care.",
+    "url": "https://bigbearbaptist.org",
+    "logo": "https://bigbearbaptist.org/assets/img/logo.png",
+    "image": "https://bigbearbaptist.org/assets/img/pastor-wife.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2080 Erwin Ranch Rd",
+      "addressLocality": "Big Bear City",
+      "addressRegion": "CA",
+      "postalCode": "92314",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 34.2647,
+      "longitude": -116.8213
+    },
+    "telephone": "+19095888868",
+    "email": "pastorelwart@icloud.com",
+    "pastor": {
+      "@type": "Person",
+      "name": "Pastor Elwart",
+      "jobTitle": "Pastor"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "09:30",
+        "closes": "12:00",
+        "name": "Worship Service & Sunday School"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Thursday",
+        "opens": "19:00",
+        "closes": "20:30",
+        "name": "Bible Study"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+  <link rel="stylesheet" href="assets/css/tailwind-built.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="stylesheet" href="assets/css/main.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/luxury-hero.css?v=1.1">
+  <link rel="preconnect" href="https://images.unsplash.com">
+</head>
+
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P75SLGFX" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Header/Nav -->
+  <header class="bg-white/90 backdrop-blur shadow fixed inset-x-0 top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3 text-2xl font-bold text-emerald-600 tracking-tight">
+        <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo" class="h-10 w-auto">
+      </a>
+      <button type="button"
+        class="md:hidden inline-flex items-center justify-center rounded-md border border-slate-200 bg-white p-2 text-slate-600 transition hover:border-emerald-300 hover:text-emerald-600"
+        aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+          aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <nav id="primary-navigation" data-nav-menu class="primary-nav">
+        <a href="/">Home</a>
+        <a href="/visit">Visit</a>
+        <a href="/about">Our Story</a>
+        <a href="/leadership">Leadership</a>
+        <a href="/sermons">Sermons</a>
+        <a href="/food-ministry">Community Care</a>
+        <a href="/giving">Give</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION 1 — Hero (Belonging First) -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-900">
+      <div class="absolute inset-0 z-0">
+        <img src="assets/img/hero-big-bear.png" sizes="100vw" width="1920" height="1080" fetchpriority="high"
+          decoding="async" alt="Majestic Big Bear Lake landscape at twilight"
+          class="w-full h-full object-cover opacity-40">
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-900/60 via-slate-900/70 to-slate-900/80"></div>
+      </div>
+
+      <div class="relative z-10 container mx-auto px-6 text-center max-w-6xl py-32">
+        <div class="space-y-10">
+          <h1
+            class="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white leading-[0.95] tracking-tight drop-shadow-2xl">
+            Big Bear<br>Baptist Church
+          </h1>
+          <p
+            class="text-3xl sm:text-4xl md:text-5xl text-white/95 font-semibold max-w-4xl mx-auto leading-tight drop-shadow-xl">
+            Encounter Jesus in Worship &amp; Word
+          </p>
+          <p
+            class="text-xl sm:text-2xl md:text-3xl text-white font-light max-w-3xl mx-auto leading-relaxed drop-shadow-2xl">
+            A family of imperfect people following a perfect Savior.
+          </p>
+
+          <div class="pt-12">
+            <a href="#visit"
+              class="inline-block px-16 py-6 md:px-20 md:py-7 bg-emerald-500 text-white text-xl md:text-2xl font-bold rounded-full hover:bg-emerald-400 transition-all duration-300 shadow-2xl shadow-emerald-500/50 hover:shadow-emerald-400/60 hover:scale-105 transform uppercase tracking-wide">
+              Plan a Visit
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2 — Service Info (Remove Fear) -->
+    <section id="visit" class="py-24 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="max-w-5xl mx-auto grid gap-12 lg:grid-cols-2">
+          <div class="space-y-6">
+            <h2 class="text-3xl font-bold text-slate-900">Come say hi this Sunday.</h2>
+            <p class="text-lg text-slate-600 leading-relaxed">
+              We meet every Sunday at 9:30 AM at 2080 Erwin Ranch Rd in Big Bear City.
+              You don't need to dress up—most of us will be in jeans or whatever we had ready.
+              Grab a cup of coffee at the door and find a seat wherever you like.
+            </p>
+            <div class="bg-gray-50 p-8 rounded-3xl border border-slate-100 flex flex-col gap-6">
+              <div class="flex items-start gap-4">
+                <div class="w-6 h-6 text-emerald-600 mt-1">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="font-bold text-slate-900">Weekly Gatherings</p>
+                  <p class="text-slate-600 text-sm">
+                    <time datetime="Su 09:30">Sundays at 9:30 AM</time> — Worship Service<br>
+                    <time datetime="Su 10:45">Sundays at 10:45 AM</time> — Sunday School<br>
+                    <time datetime="Th 19:00">Thursdays at 7:00 PM</time> — Bible Study
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-6 h-6 text-emerald-600 mt-1">
+                  <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <address class="not-italic">
+                    <p class="font-bold text-slate-900">2080 Erwin Ranch Rd</p>
+                    <p class="text-slate-600 text-sm">Big Bear City, CA 92314</p>
+                  </address>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-emerald-50 p-10 rounded-[2.5rem] space-y-6">
+            <h3 class="text-2xl font-bold text-emerald-900">What about my kids?</h3>
+            <p class="text-emerald-800 leading-relaxed text-lg">
+              We love having kids around. We have a safe, fun space where they can play and learn with people who care
+              about them.
+              But if you’d rather keep them with you in the service, that’s completely fine too.
+              A little noise doesn’t bother us.
+            </p>
+            <ul class="space-y-3">
+              <li class="flex items-center gap-3 text-emerald-700">
+                <svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                Safe, background-checked volunteers
+              </li>
+              <li class="flex items-center gap-3 text-emerald-700">
+                <svg class="w-5 h-5 text-emerald-500" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"></path>
+                </svg>
+                Age-appropriate groups
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Video Section — See for Yourself -->
+    <section class="py-24 bg-white">
+      <div class="container mx-auto px-4 max-w-5xl">
+        <div class="text-center mb-12 space-y-4">
+          <h2 class="text-4xl font-bold text-slate-900">Take a look inside.</h2>
+          <p class="text-xl text-slate-600">See what our community and gatherings look like.</p>
+        </div>
+        <div class="aspect-video w-full rounded-[2.5rem] overflow-hidden shadow-2xl ring-1 ring-black/5 bg-slate-100">
+          <iframe class="w-full h-full" src="https://www.youtube-nocookie.com/embed/vYt0sFTISrM"
+            title="Big Bear Baptist Church Introduction" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3 — Who We Are (Story, Not Doctrine) -->
+    <section class="py-24 bg-slate-50">
+      <div class="container mx-auto px-4 text-center max-w-3xl space-y-8">
+        <h2 class="text-4xl font-bold text-slate-900">A place where faith meets real life.</h2>
+        <div class="space-y-6 text-xl text-slate-600 leading-relaxed text-left md:text-center">
+          <p>
+            Big Bear Baptist Church was founded on a simple desire: to be a place where the Bible isn't just preached,
+            but where its truth changes our real-world lives here in <strong>Big Bear City</strong>.
+          </p>
+          <p>
+            We are a family of neighbors following Jesus together. Whether you've walked with God for years or you're
+            just starting to ask questions, you are welcome here. We believe in <strong>Worship &amp;
+              Word</strong>—longing for God's presence and grounding our lives in the Scriptures.
+          </p>
+          <p>
+            You don't need to be perfect to belong here. We are ordinary people serving an extraordinary Savior,
+            committed to caring for one another through <strong>expository preaching</strong> and the public reading of
+            Scripture.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4 — Real People (Trust Builder) -->
+    <section class="py-24 bg-white overflow-hidden">
+      <div class="container mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <div class="relative">
+            <div class="absolute -top-10 -left-10 w-64 h-64 bg-emerald-100 rounded-full blur-3xl opacity-50"></div>
+            <img src="assets/img/pastor-wife.png" alt="Pastor Elwart and his wife" width="600" height="400"
+              loading="lazy" decoding="async"
+              class="relative rounded-[3rem] shadow-2xl w-full max-w-md h-auto object-cover mx-auto lg:mx-0">
+          </div>
+          <div class="space-y-8">
+            <h2 class="text-4xl font-bold text-slate-900 leading-tight">Ordinary people, no pedestals.</h2>
+            <p class="text-lg text-slate-600 font-light leading-relaxed">
+              Pastor Elwart is our pastor, but he’s really just part of the family.
+              You’ll usually see him at the door holding it open for someone or chatting over coffee after the service.
+            </p>
+            <div class="space-y-6">
+              <div
+                class="flex gap-4 p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition">
+                <div
+                  class="w-12 h-12 rounded-full bg-emerald-100 flex-shrink-0 flex items-center justify-center text-emerald-600 font-bold">
+                  T</div>
+                <div>
+                  <p class="font-bold text-slate-900">Pastor Elwart</p>
+                  <p class="text-slate-500">He’s usually making sure the coffee is hot and the doors are open.</p>
+                </div>
+              </div>
+              <div>
+                <a href="/leadership"
+                  class="inline-flex items-center justify-center px-8 py-4 bg-emerald-50 text-emerald-700 font-bold rounded-xl hover:bg-emerald-100 transition border border-emerald-100 w-full sm:w-auto">
+                  Meet our Leadership &rarr;
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5 — What Happens Here (Experience Over Programs) -->
+    <section class="py-24 bg-emerald-900 text-white">
+      <div class="container mx-auto px-4 max-w-4xl space-y-12">
+        <div class="text-center space-y-4">
+          <h2 class="text-4xl font-bold">What a Sunday actually feels like.</h2>
+          <p class="text-emerald-100 text-xl font-light">It’s relaxed, grounded, and focused on things that matter.</p>
+        </div>
+        <div class="grid gap-8 md:grid-cols-2">
+          <div class="p-10 rounded-3xl bg-white/10 backdrop-blur border border-white/20">
+            <h3 class="text-2xl font-bold mb-4">Grounded Teaching</h3>
+            <p class="text-emerald-50 leading-relaxed text-lg italic">
+              "We spend time listening to what the Bible has to say about our real lives. No hype, just honest
+              conversations about following Jesus that make sense on a Monday morning."
+            </p>
+          </div>
+          <div class="p-10 rounded-3xl bg-white/10 backdrop-blur border border-white/20">
+            <h3 class="text-2xl font-bold mb-4">Honest Worship</h3>
+            <p class="text-emerald-50 leading-relaxed text-lg italic">
+              "We sing songs that mean something. We pray for each other because life is hard and we know we need help."
+            </p>
+          </div>
+        </div>
+        <div class="text-center">
+          <p class="text-emerald-200 text-lg">Afterwards, we stick around to talk. Most of the best moments happen over
+            a cup of coffee in the hallway.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6 — Community & Ministries (People-Centered) -->
+    <section class="py-24 bg-white">
+      <div class="container mx-auto px-4 max-w-5xl">
+        <div class="text-center mb-16 space-y-4">
+          <h2 class="text-4xl font-bold text-slate-900">We're here for each other.</h2>
+          <p class="text-xl text-slate-600">We don't do programs—we do community.</p>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="space-y-4 p-8 bg-slate-50 rounded-3xl border border-slate-100">
+            <h3 class="text-xl font-bold text-slate-900">Caring for neighbors</h3>
+            <p class="text-slate-600">We seek to be a blessing to our community through outreach and prayer. It’s what
+              family does.</p>
+          </div>
+          <div class="space-y-4 p-8 bg-slate-50 rounded-3xl border border-slate-100">
+            <h3 class="text-xl font-bold text-slate-900">The next generation</h3>
+            <p class="text-slate-600">We help our kids and teens see how much they are worth. We want them to feel safe,
+              loved, and heard as they grow.</p>
+          </div>
+          <div class="space-y-4 p-8 bg-slate-50 rounded-3xl border border-slate-100">
+            <h3 class="text-xl font-bold text-slate-900">Support & Prayer</h3>
+            <p class="text-slate-600">Between Sundays, we’re just neighbors who look out for each other and share life's
+              burdens together.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7 — Stories (Social Proof) -->
+    <section class="py-24 bg-slate-900 text-white relative">
+      <div class="container mx-auto px-4 max-w-5xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What our members say</h2>
+        <div class="grid gap-12 md:grid-cols-3">
+          <div class="space-y-4">
+            <p class="text-emerald-400 text-5xl font-serif">"</p>
+            <p class="text-xl italic text-slate-100 leading-relaxed">"I walked in expecting to be judged for my past.
+              Instead, I found people who just wanted to know my name."</p>
+            <p class="text-slate-400 font-bold">— Sarah</p>
+          </div>
+          <div class="space-y-4">
+            <p class="text-emerald-400 text-5xl font-serif">"</p>
+            <p class="text-xl italic text-slate-100 leading-relaxed">"I haven't been to church in twenty years. This
+              place made it easy to start again."</p>
+            <p class="text-slate-400 font-bold">— Mike</p>
+          </div>
+          <div class="space-y-4">
+            <p class="text-emerald-400 text-5xl font-serif">"</p>
+            <p class="text-xl italic text-slate-100 leading-relaxed">"The way they helped my family when we were going
+              through a hard time showed me what church is supposed to be."</p>
+            <p class="text-slate-400 font-bold">— Robert</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8 — Giving (Trust-First) -->
+    <section class="py-24 bg-white">
+      <div class="container mx-auto px-4 text-center max-w-3xl space-y-6">
+        <h2 class="text-3xl font-bold text-slate-900">Generosity without the pressure.</h2>
+        <p class="text-lg text-slate-600 leading-relaxed">
+          Those of us who call this church home give because we want to see our community thrive.
+          If you’re visiting with us, please don’t feel any obligation to give.
+          Your presence is already a gift to us.
+        </p>
+        <div class="pt-4 text-center">
+          <a href="/giving"
+            class="text-emerald-600 font-bold hover:text-emerald-700 transition underline underline-offset-8">
+            Learn more about how we use what's given →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9 — One Clear Next Step -->
+    <section class="py-32 bg-emerald-600 relative overflow-hidden">
+      <div class="absolute inset-0 opacity-10 pointer-events-none">
+        <svg class="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path d="M0 100 C 20 0 50 0 100 100 Z" fill="white"></path>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4 text-center space-y-8 relative z-10">
+        <h2 class="text-4xl md:text-5xl font-bold text-white">Come see for yourself.</h2>
+        <div class="space-y-4">
+          <a href="/visit"
+            class="inline-block px-12 py-6 bg-white text-emerald-700 text-xl font-bold rounded-full hover:bg-emerald-50 transition shadow-2xl shadow-black/20">
+            Plan your visit
+          </a>
+          <p class="text-emerald-50 text-lg opacity-90">We’ll have the coffee ready and a seat saved for you this Sunday
+            at 9:30 AM.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 py-24">
+    <div class="container mx-auto px-4">
+      <div class="grid gap-16 md:grid-cols-3 text-center md:text-left">
+        <!-- Brand & Contact -->
+        <div class="space-y-6">
+          <img src="assets/img/logo.png" alt="Big Bear Baptist Church Logo"
+            class="h-16 w-auto mx-auto md:mx-0 brightness-0 invert opacity-90">
+          <div class="space-y-4">
+            <h3 class="text-white font-bold text-xl uppercase tracking-wider">Big Bear Baptist</h3>
+            <p class="leading-relaxed">
+              2080 Erwin Ranch Rd<br>
+              Big Bear City, CA 92314
+            </p>
+            <p>
+              <a href="mailto:pastorelwart@icloud.com"
+                class="hover:text-white transition">pastorelwart@icloud.com</a><br>
+              (909) 588-8868
+            </p>
+          </div>
+        </div>
+
+        <!-- Join Us & Social -->
+        <div class="space-y-6">
+          <h3 class="text-white font-bold text-xl uppercase tracking-wider">Join Us</h3>
+          <div class="space-y-2">
+            <p>Sundays at 9:30 AM</p>
+            <p>Sunday School at 10:45 AM</p>
+            <p>Thursdays at 7:00 PM</p>
+          </div>
+          <nav class="flex justify-center md:justify-start gap-6 text-sm mt-4">
+            <a href="https://facebook.com/bigbearbaptist" target="_blank" rel="noopener"
+              class="hover:text-white transition uppercase font-bold tracking-widest text-emerald-500">Facebook</a>
+            <a href="https://youtube.com/@bigbearbaptist" target="_blank" rel="noopener"
+              class="hover:text-white transition uppercase font-bold tracking-widest text-emerald-500">YouTube</a>
+          </nav>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="space-y-6">
+          <h3 class="text-white font-bold text-xl uppercase tracking-wider">Quick Links</h3>
+          <nav class="flex flex-col gap-3">
+            <a href="/about" class="hover:text-white transition">Our Story</a>
+            <a href="/sermons" class="hover:text-white transition">Recent Sermons</a>
+            <a href="/visit" class="hover:text-white transition">What to Expect</a>
+            <a href="/giving" class="hover:text-white transition">Generosity</a>
+            <a href="/terms" class="hover:text-white transition">Terms of Service</a>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="mt-20 pt-10 border-t border-slate-900 text-sm text-center space-y-4">
+        <p>Copyright &copy; <span data-current-year></span> Big Bear Baptist Church. All rights reserved.</p>
+        <p class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-slate-500">
+          <a href="/privacy" class="hover:text-emerald-500 transition">Privacy Policy</a>
+          <span class="text-slate-800 hidden sm:inline">|</span>
+          <a href="/terms" class="hover:text-emerald-500 transition">Terms of Service</a>
+        </p>
+        <p>
+          <a href="https://apps.irs.gov/pub/epostcard/dl/FinalLetter_37-2066430_LAKELOSANGELESBAPTISTCHURCH_06122023_00.pdf"
+            target="_blank" rel="noopener" class="text-slate-500 hover:text-emerald-500 transition">
+            Registered IRS 501(c)(3) Non-Profit Organization
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>
